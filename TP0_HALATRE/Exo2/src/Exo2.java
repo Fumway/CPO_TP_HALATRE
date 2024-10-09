@@ -25,7 +25,7 @@ public class Exo2 {
         nb=5;
         result=0;   
        
-        int nb;
+    
         //nb=5;
         Scanner sc = new Scanner(System.in);
         System.out.println("\n Entrer le nombre :");
