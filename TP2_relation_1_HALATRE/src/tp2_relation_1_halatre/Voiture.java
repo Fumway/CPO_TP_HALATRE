@@ -10,24 +10,24 @@ package tp2_relation_1_halatre;
  * @author ennio
  */
 public class Voiture {
-    
-    String Model;
+    String Modele;
     String Marque;
     int PuissanceCV;
-    Personne ProprietaireVoiture = null;
-    
-    public Voiture(String Model, String Marque, int PuissanceCV) {
-        this.Model = Model;
+    Personne proprietaire;
+    Personne ProprietaireVoiture;
+    public Voiture(String Modele,String Marque,int PuissanceCV){
+        this.Modele = Modele;
         this.Marque = Marque;
         this.PuissanceCV = PuissanceCV;
-        
-        }
-    
-    @Override
-    public String toString() {
-        return "Voiture{" + "Model=" + Model + ", Marque=" + Marque + ", PuissanceCV=" + PuissanceCV + '}';
+        this.proprietaire = null;
     }
     
-        
+    @Override
+
+    public String toString() {
+        return "Voiture{" + "Modele=" + Modele + ", Marque=" + Marque + ", PuissanceCV=" + PuissanceCV + '}';
+    }
+    
+    
     
 }
